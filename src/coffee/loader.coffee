@@ -5,14 +5,16 @@ window.console.log = ->
 
 class Loader
   libs:
-    styles: '//creampie.dev:8081/site/dist/styles-0.1.6.css'
+    # styles: '//creampie.dev:8081/site/dist/styles-0.1.6.css'
+    styles: 'dist/styles-0.1.6.css'
     json: '//cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js'
     es5shim: '//cdnjs.cloudflare.com/ajax/libs/es5-shim/1.2.4/es5-shim.min.js'
     jquery: '//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js'
     underscore: '//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.1.6/underscore-min.js'
     backbone: '//cdnjs.cloudflare.com/ajax/libs/backbone.js/0.5.1/backbone-min.js'
     # Add widgets libraries here
-    experiment: '//creampie.dev:8081/site/dist/experiment-0.1.6.js'
+    experiment: 'dist/experiment-0.1.6.js'
+    # experiment: '//creampie.dev:8081/site/dist/experiment-0.1.6.js'
   start: (config) -> 
     onWidget = =>
       # Start the widget specified in config
