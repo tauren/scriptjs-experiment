@@ -1,0 +1,79 @@
+.sz-widget {
+  font-size: 100%;
+  color: #444;
+  text-align: left;
+  font: 13px/1.231 sans-serif;
+  *font-size: small;
+  vertical-align: baseline;
+}
+.sz-widget h1,
+.sz-widget h2,
+.sz-widget h3,
+.sz-widget h4,
+.sz-widget h5,
+.sz-widget table,
+.sz-widget th,
+.sz-widget td,
+.sz-widget div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.sz-widget img {
+  border: none;
+}
+.sz-widget a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.sz-widget a:hover,
+.sz-widget a:active {
+  outline: none;
+}
+.sz-widget a,
+.sz-widget a:active,
+.sz-widget a:visited {
+  color: #3e6e9d;
+}
+.sz-widget a:hover {
+  color: #35acc5;
+}
+.sz-widget strong,
+.sz-widget th {
+  font-weight: bold;
+}
+.sz-widget td {
+  vertical-align: top;
+}
+.sz-widget h1,
+.sz-widget h2,
+.sz-widget h3,
+.sz-widget h4,
+.sz-widget h5,
+.sz-widget h6 {
+  font-weight: bold;
+}
+.sz-widget h1 {
+  font-size: 130%;
+}
+.sz-widget h2 {
+  font-size: 110%;
+}
+.sz-widget .sz-cfx:before,
+.sz-widget .sz-cfx:after {
+  content: "";
+  display: table;
+}
+.sz-widget .sz-cfx:after {
+  clear: both;
+}
+.sz-widget .sz-cfx {
+  zoom: 1;
+}
+.sz-widget table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.sz-widget .sz-hidden {
+  display: none;
+}

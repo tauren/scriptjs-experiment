@@ -1,0 +1,46 @@
+// CSS mini-reset for widgets
+.sz-widget
+  font-size 100%
+  color #444
+  text-align left
+  font 13px/1.231 sans-serif
+  *font-size small
+  vertical-align baseline
+  & h1, h2, h3, h4, h5, table, th, td, div
+    margin 0
+    padding 0
+    border 0
+  & img
+    border none
+  & a
+    text-decoration none
+    cursor pointer
+  & a:hover, a:active
+    outline none
+  & a, a:active, a:visited
+    color #3e6e9d
+  & a:hover
+    color #35acc5
+  & strong, th
+    font-weight bold
+  & td
+    vertical-align top
+  & h1, h2, h3, h4, h5, h6
+    font-weight bold
+  & h1
+    font-size 130%
+  & h2
+    font-size 110%
+  & .sz-cfx:before, .sz-cfx:after
+    content ""
+    display table
+  & .sz-cfx:after
+    clear both
+  & .sz-cfx
+    zoom 1
+  & table
+    border-collapse collapse
+    border-spacing 0 
+
+  & .sz-hidden
+    display none

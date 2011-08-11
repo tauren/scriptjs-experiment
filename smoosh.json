@@ -1,0 +1,24 @@
+{
+  "VERSION": "0.1.0",
+  "JSHINT_OPTS": { 
+    "boss": true,
+    "forin": true, 
+    "browser": true
+  },
+  "JAVASCRIPT": {
+    "DIST_DIR": "./www/dist",
+    "loader": [ 
+      {"src":"./src/js/script2.js","jshint":false},
+      "./target/js/loader.js"
+    ],
+    "experiment": [ 
+      "./target/js/experiment.js"
+    ]
+  },
+  "CSS": {
+    "DIST_DIR": "./www/dist",
+    "styles": [
+      "./target/css/app.css"
+    ]
+  }
+}
