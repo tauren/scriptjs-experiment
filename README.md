@@ -9,7 +9,7 @@ Build with the following commands:
     cake compile
     cake smoosh
 
-h2. Notes to self on how to setup github project page. 
+## Notes to self on how to setup github project page. 
 
 This assumes I want to publish the contents of the `www` folder as a demo of this project.
 
